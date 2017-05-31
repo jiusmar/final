@@ -22,7 +22,15 @@
         <activity android:name=".actividad1" />
         <activity android:name=".actividad3" />
         <activity android:name=".actividad4" />
-        <activity android:name=".actividad5"></activity>
+        <activity android:name=".actividad5" />
+        <activity android:name=".actividad6" />
+        <activity android:name=".actividad7" />
+        <activity android:name=".actividad8" />
+        <activity android:name=".actividad9" />
+        <activity
+            android:name=".actividad10"
+            android:label="@string/title_activity_actividad10"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

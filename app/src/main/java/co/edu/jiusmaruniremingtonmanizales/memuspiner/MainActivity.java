@@ -222,9 +222,35 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     startActivity(intent4);
                 }
 
-                if (checkedId == R.id.radioButton1) {
+                if (checkedId == R.id.radioButton2) {
                     Intent intent5 = new Intent(MainActivity.this, actividad5.class);
                     startActivity(intent5);
+                }
+
+                if (checkedId == R.id.radioButton3) {
+                    Intent intent6 = new Intent(MainActivity.this, actividad6.class);
+                    startActivity(intent6);
+                }
+
+
+                if (checkedId == R.id.radioButton4) {
+                    Intent intent7 = new Intent(MainActivity.this, actividad7.class);
+                    startActivity(intent7);
+                }
+
+                if (checkedId == R.id.radioButton5) {
+                    Intent intent8 = new Intent(MainActivity.this, actividad8.class);
+                    startActivity(intent8);
+                }
+
+                if (checkedId == R.id.radioButton6) {
+                    Intent intent9 = new Intent(MainActivity.this, actividad9.class);
+                    startActivity(intent9);
+                }
+
+                if (checkedId == R.id.radioButton7) {
+                    Intent intent10 = new Intent(MainActivity.this, actividad10.class);
+                    startActivity(intent10);
                 }
 
 

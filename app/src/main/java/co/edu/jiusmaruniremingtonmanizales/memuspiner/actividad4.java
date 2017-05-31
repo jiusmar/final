@@ -13,6 +13,6 @@ public class actividad4 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_actividad4);
         webView = (WebView) findViewById(R.id.webview);
-        webView.loadUrl("http://www.uniremington.edu.co/corporativo/");
+        webView.loadUrl("http://www.uniremington.edu.co/corporativo/mision.html");
     }
 }
