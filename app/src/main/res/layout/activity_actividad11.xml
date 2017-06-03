@@ -4,61 +4,68 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
     tools:context="co.edu.jiusmaruniremingtonmanizales.memuspiner.actividad11">
 
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="254dp"
-        android:layout_height="29dp"
-        android:text="APLICATIVO UNIREMINTON MANIZALES"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintVertical_bias="0.056" />
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:text=""
-        android:hint="Digite el Usuario"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.139"
-        android:layout_marginRight="109dp" />
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:text="APLICATIVO UNIREMINTON MANIZALES"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.057"
+            tools:layout_editor_absoluteX="75dp"
+            tools:layout_editor_absoluteY="29dp" />
 
-    <EditText
-        android:id="@+id/editText1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="84dp"
-        android:ems="10"
-        android:text=""
-        android:hint="Digite La Clave"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.079" />
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="109dp"
+            android:background="@android:color/background_light"
+            android:ems="10"
+            android:hint="Digite el Usuario"
+            android:text=""
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.121" />
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="202dp"
-        android:layout_height="52dp"
-        android:text="Ingresar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintVertical_bias="0.37" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:ems="10"
+            android:hint="Digite La Clave"
+            android:text=""
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.178"
+            android:layout_marginRight="109dp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingresar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.254"
+            android:layout_marginRight="146dp" />
 
 
 </android.support.constraint.ConstraintLayout>
