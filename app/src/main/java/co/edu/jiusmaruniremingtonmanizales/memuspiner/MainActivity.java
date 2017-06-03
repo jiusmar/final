@@ -211,6 +211,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         spinner3.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+
+                if (position == 1 ) {
+                    Intent intent22 = new Intent(MainActivity.this, actividad22.class);
+                    startActivity(intent22);
+                }
+
+                if (position == 2 ) {
+                    Intent intent23 = new Intent(MainActivity.this, actividad23.class);
+                    startActivity(intent23);
+                }
+
                 Toast.makeText(MainActivity.this, "position " + String.valueOf(spinner3.getSelectedItem()), Toast.LENGTH_SHORT).show();
             }
 
