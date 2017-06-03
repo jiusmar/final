@@ -49,47 +49,29 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //se crea la matriz o la lista
         List list = new ArrayList();
         list.add("Estudiantes");
-        list.add("Calendrio Academico");
-        list.add("Tarifas Institucionales 2017");
-        list.add("plataforma Moodle");
-        list.add("Plataforma Q10");
-        list.add("Correo Institucional");
         list.add("Recibo de Matricula");
         list.add("Homologaciones");
-        list.add("Directorio Administrativo");
-        list.add("Lineamientos Academícos");
-        list.add("Reglamento Estudiantl");
 
         List list0 = new ArrayList();
         list0.add("Aspirantes");
         list0.add("Oferta Academica");
-        list0.add("Formas de Pago");
-        list0.add("Convenios y Descuentos");
         list0.add("Requisitos de Inscripcion");
-        list0.add("Homologaciones");
-        list0.add("tarifas Institucionales 2017");
         list0.add("Pre-Inscripción");
         list0.add("Documentos Nuevos");
 
         List list1 = new ArrayList();
         list1.add("Docentes - Tutores");
-        list1.add("plataforma Moodle");
-        list1.add("Plataforma Q10");
-        list1.add("Correo Institucional");
         list1.add("Directorio Administrativo");
         list1.add("Reserva de Equipos");
 
         List list2 = new ArrayList();
         list2.add("Egresados");
         list2.add("Especializaciones");
-        list2.add("Correo Institucional");
         list2.add("Directorio Administrativo");
 
 
         List list3 = new ArrayList();
         list3.add("Administrativos");
-        list3.add("Plataforma Q10");
-        list3.add("Correo Institucional");
         list3.add("Directorio Administrativo");
         list3.add("Reserva de Equipos");
 
@@ -127,6 +109,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             //cuando hay un item seleccionado entra a este método
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 //cuando se toca cualquier elemento de la lista nos diga la posición
+
+                if (position == 1 ) {
+                    Intent intent16 = new Intent(MainActivity.this, actividad16.class);
+                    startActivity(intent16);
+                }
+
+                if (position == 2 ) {
+                    Intent intent17 = new Intent(MainActivity.this, actividad17.class);
+                    startActivity(intent17);
+                }
+
+
                 Toast.makeText(MainActivity.this, "position " + String.valueOf(spinner.getSelectedItem()), Toast.LENGTH_SHORT).show();
             }
 
@@ -139,7 +133,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         spinner0.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                if (position == 1 ) {
+                    Intent intent12 = new Intent(MainActivity.this, actividad12.class);
+                    startActivity(intent12);
+                }
+
+                if (position == 2 ) {
+                    Intent intent13 = new Intent(MainActivity.this, actividad13.class);
+                    startActivity(intent13);
+                }
+
+                if (position == 3 ) {
+                    Intent intent14 = new Intent(MainActivity.this, actividad14.class);
+                    startActivity(intent14);
+                }
+
+                if (position == 4 ) {
+                    Intent intent15 = new Intent(MainActivity.this, actividad15.class);
+                    startActivity(intent15);
+                }
+
                 Toast.makeText(MainActivity.this, "position " + String.valueOf(spinner0.getSelectedItem()), Toast.LENGTH_SHORT).show();
+
             }
 
             @Override

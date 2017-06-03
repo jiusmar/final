@@ -27,7 +27,7 @@
                     android:layout_width="77dp"
                     android:layout_height="27dp"
                     android:background="@color/colorAccent"
-                    android:text="Cat MANIZALES"
+                    android:text="Manizales"
                     android:textAppearance="@style/TextAppearance.AppCompat"
                     android:textColorLink="@color/colorAccent"
                     android:visibility="visible"
