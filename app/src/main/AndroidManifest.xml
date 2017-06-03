@@ -38,7 +38,9 @@
         <activity android:name=".actividad14" />
         <activity android:name=".actividad15" />
         <activity android:name=".actividad16" />
-        <activity android:name=".actividad17"></activity>
+        <activity android:name=".actividad17" />
+        <activity android:name=".actividad18" />
+        <activity android:name=".actividad19"></activity>
     </application>
 
 </manifest>
