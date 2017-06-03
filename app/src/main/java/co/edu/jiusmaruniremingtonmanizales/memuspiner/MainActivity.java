@@ -190,8 +190,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 
                 if (position == 1 ) {
-                    Intent pasoALaActividadCuatro = new Intent(MainActivity.this, actividad4.class);
-                    startActivity(pasoALaActividadCuatro);
+                    Intent intent20 = new Intent(MainActivity.this, actividad20.class);
+                    startActivity(intent20);
+                }
+
+                if (position == 2 ) {
+                    Intent intent21 = new Intent(MainActivity.this, actividad21.class);
+                    startActivity(intent21);
                 }
 
                 Toast.makeText(MainActivity.this, "position " + String.valueOf(spinner2.getSelectedItem()), Toast.LENGTH_SHORT).show();
